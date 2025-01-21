@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
-    //@Autowired
+    @Autowired
     private Student student;
 
     /*
